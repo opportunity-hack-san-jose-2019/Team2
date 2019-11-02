@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7DF9CE390D520F3B6709718B /* Pods_OppHack19T2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B7CBD23BF2C32635EE3418 /* Pods_OppHack19T2.framework */; };
+		DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */; };
+		DA3E3EDD236E3A26000DCE65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */; };
 		DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */; };
 		DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F71FB236E2C41000E30B9 /* ViewController.swift */; };
 		DA5F71FF236E2C41000E30B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F71FD236E2C41000E30B9 /* Main.storyboard */; };
@@ -17,12 +19,15 @@
 		DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */; };
 		DA5F7213236E3025000E30B9 /* Mentor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7212236E3025000E30B9 /* Mentor.storyboard */; };
 		DA5F7215236E302D000E30B9 /* Mentee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7214236E302D000E30B9 /* Mentee.storyboard */; };
+		DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA5063236E37D900014BC3 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01C420C9687FAD2AD612606F /* Pods-OppHack19T2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OppHack19T2.debug.xcconfig"; path = "Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2.debug.xcconfig"; sourceTree = "<group>"; };
 		84B7CBD23BF2C32635EE3418 /* Pods_OppHack19T2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OppHack19T2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0261C2F5F4C1531FE69103 /* Pods-OppHack19T2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OppHack19T2.release.xcconfig"; path = "Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2.release.xcconfig"; sourceTree = "<group>"; };
+		DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA5F71F4236E2C41000E30B9 /* OppHack19T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OppHack19T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5F71FB236E2C41000E30B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DA5F7212236E3025000E30B9 /* Mentor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentor.storyboard; sourceTree = "<group>"; };
 		DA5F7214236E302D000E30B9 /* Mentee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentee.storyboard; sourceTree = "<group>"; };
+		DAAA5063236E37D900014BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA2E1497236E3E9300C4F0DC /* AlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */,
+			);
+			path = AlertPresenter;
+			sourceTree = "<group>";
+		};
 		DA5F71EB236E2C41000E30B9 = {
 			isa = PBXGroup;
 			children = (
@@ -86,13 +100,16 @@
 		DA5F71F6236E2C41000E30B9 /* OppHack19T2 */ = {
 			isa = PBXGroup;
 			children = (
+				DA2E1497236E3E9300C4F0DC /* AlertPresenter */,
 				DA5F720D236E2DE5000E30B9 /* Controller */,
 				DA5F720C236E2DE1000E30B9 /* View */,
 				DA5F720B236E2DDD000E30B9 /* Model */,
 				DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */,
 				DA5F7200236E2C47000E30B9 /* Assets.xcassets */,
 				DA5F7202236E2C47000E30B9 /* LaunchScreen.storyboard */,
+				DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */,
 				DA5F7205236E2C47000E30B9 /* Info.plist */,
+				DAAA5063236E37D900014BC3 /* SceneDelegate.swift */,
 			);
 			path = OppHack19T2;
 			sourceTree = "<group>";
@@ -135,7 +152,7 @@
 				DA5F71F0236E2C41000E30B9 /* Sources */,
 				DA5F71F1236E2C41000E30B9 /* Frameworks */,
 				DA5F71F2236E2C41000E30B9 /* Resources */,
-				C4037D51DA3990212EAA1E47 /* [CP] Embed Pods Frameworks */,
+				E54605583AE05479AA9FE7AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,6 +206,7 @@
 				DA5F7215236E302D000E30B9 /* Mentee.storyboard in Resources */,
 				DA5F7201236E2C47000E30B9 /* Assets.xcassets in Resources */,
 				DA5F71FF236E2C41000E30B9 /* Main.storyboard in Resources */,
+				DA3E3EDD236E3A26000DCE65 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +235,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4037D51DA3990212EAA1E47 /* [CP] Embed Pods Frameworks */ = {
+		E54605583AE05479AA9FE7AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,10 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */,
 				DA5F720F236E2E86000E30B9 /* LoginViewController.swift in Sources */,
 				DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */,
 				DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */,
 				DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */,
+				DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

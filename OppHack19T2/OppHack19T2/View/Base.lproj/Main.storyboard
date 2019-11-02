@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ivU-Lm-EqI">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -38,10 +38,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="HaD-U5-IwW"/>
-                    <connections>
-                        <outlet property="loginButton" destination="Joh-UM-1XC" id="3mw-ji-vky"/>
-                        <outlet property="registerButton" destination="VUG-qR-9CH" id="pVL-fL-KIS"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,13 +62,13 @@
                                 <state key="normal" title="Mentee"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oz5-dg-oKf">
-                                <rect key="frame" x="159" y="188" width="97" height="34"/>
+                                <rect key="frame" x="107" y="188" width="180" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sow-ps-PBc">
-                                <rect key="frame" x="159" y="289" width="97" height="34"/>
+                                <rect key="frame" x="107" y="289" width="180" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -89,6 +85,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
+                                    <action selector="registerButton:" destination="KdW-Xb-WXh" eventType="touchUpInside" id="ptn-3N-jGS"/>
                                     <segue destination="edF-NW-4ON" kind="show" id="M58-XU-Nxk"/>
                                 </connections>
                             </button>
@@ -97,10 +94,14 @@
                         <viewLayoutGuide key="safeArea" id="IR2-rR-Lfh"/>
                     </view>
                     <navigationItem key="navigationItem" id="Oys-aI-RbD"/>
+                    <connections>
+                        <outlet property="emailTF" destination="Oz5-dg-oKf" id="TPi-3Z-Rlt"/>
+                        <outlet property="passwordTF" destination="sow-ps-PBc" id="p7j-Ed-AW6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6H7-dY-D1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="-168"/>
+            <point key="canvasLocation" x="1797.1014492753625" y="-168.08035714285714"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3I7-fa-AER">

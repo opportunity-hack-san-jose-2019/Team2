@@ -9,9 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-//
-//    @IBOutlet weak var registerButton: UIButton!
-//    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +16,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func registerButton(_ sender: Any) {
-        performSegue(withIdentifier: "registerSegue", sender: nil)
     }
 
     @IBAction func loginButton(_ sender: Any) {

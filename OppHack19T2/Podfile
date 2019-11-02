@@ -6,8 +6,8 @@ target 'OppHack19T2' do
   use_frameworks!
 
   # Pods for OppHack19T2
-  pod 'Firebase/Core'
+  pod 'Firebase'
+  pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
-  pod 'Firebase/Database'
 
 end
