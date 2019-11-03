@@ -8,20 +8,37 @@
 
 import UIKit
 
-class FreeResponseTableViewCell: UITableViewCell {
+class FreeResponseTableViewCell: UITableViewCell, UITextViewDelegate {
 
     @IBOutlet weak var question: UILabel!
     @IBOutlet weak var freeResponseTextField: UITextView!
     
+    var textChanged: ((String) -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        freeResponseTextField.delegate = self
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func textChanged(action: @escaping (String) -> Void) {
+        self.textChanged = action
+    }
+    
+    func textViewDidChange(_ textView: UITextView) {
+        textChanged?(freeResponseTextField.text)
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        textChanged = nil
     }
 
 }

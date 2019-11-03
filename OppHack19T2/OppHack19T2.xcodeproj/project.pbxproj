@@ -11,7 +11,6 @@
 		DA1E9F3A236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */; };
 		DA1E9F3C236EC00C00C77759 /* multipleChoiceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */; };
 		DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */; };
-		DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */; };
 		DA3E3EDD236E3A26000DCE65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */; };
 		DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */; };
 		DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F71FB236E2C41000E30B9 /* ViewController.swift */; };
@@ -34,8 +33,10 @@
 		DAC2BFD3236EB2150004E7B8 /* pickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */; };
 		DAC2BFD5236EB22A0004E7B8 /* multipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */; };
 		DAC2BFD9236EB3240004E7B8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */; };
-		DAC2BFDD236EB55C0004E7B8 /* textFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */; };
+		DAC2BFDD236EB55C0004E7B8 /* FreeResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFDC236EB55C0004E7B8 /* FreeResponseViewController.swift */; };
 		DAD2B2CB236EC6400046756B /* PickerViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2B2CA236EC6400046756B /* PickerViewTableViewCell.swift */; };
+		DAD2B2CD236ECF3B0046756B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2B2CC236ECF3B0046756B /* TabBarViewController.swift */; };
+		DAD2B2CF236ED91A0046756B /* multipleChoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2B2CE236ED91A0046756B /* multipleChoiceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +46,6 @@
 		DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceCollectionView.swift; sourceTree = "<group>"; };
 		DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
-		DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
 		DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA5F71F4236E2C41000E30B9 /* OppHack19T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OppHack19T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,8 +70,10 @@
 		DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerViewController.swift; sourceTree = "<group>"; };
 		DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceViewController.swift; sourceTree = "<group>"; };
 		DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldViewController.swift; sourceTree = "<group>"; };
+		DAC2BFDC236EB55C0004E7B8 /* FreeResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeResponseViewController.swift; sourceTree = "<group>"; };
 		DAD2B2CA236EC6400046756B /* PickerViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTableViewCell.swift; sourceTree = "<group>"; };
+		DAD2B2CC236ECF3B0046756B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DAD2B2CE236ED91A0046756B /* multipleChoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +151,6 @@
 		DA5F720B236E2DDD000E30B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,23 +171,49 @@
 		DA5F720D236E2DE5000E30B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DAD2B2D2236EDA850046756B /* Free Response */,
+				DAD2B2D1236EDA720046756B /* Multiple Choice */,
+				DAD2B2D0236EDA620046756B /* Picker */,
 				DA5F71FB236E2C41000E30B9 /* ViewController.swift */,
 				DA5F720E236E2E86000E30B9 /* LoginViewController.swift */,
 				DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */,
 				DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */,
 				DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */,
+				DAD2B2CC236ECF3B0046756B /* TabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAD2B2D0236EDA620046756B /* Picker */ = {
+			isa = PBXGroup;
+			children = (
 				DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */,
-				DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */,
-				DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */,
-				DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */,
-				DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */,
-				DA77C181236EC38000460E6A /* MultipleChoiceTableView.swift */,
 				DA77C185236EC44400460E6A /* PickerViewTableView.swift */,
 				DAD2B2CA236EC6400046756B /* PickerViewTableViewCell.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		DAD2B2D1236EDA720046756B /* Multiple Choice */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */,
+				DA77C181236EC38000460E6A /* MultipleChoiceTableView.swift */,
+				DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */,
+				DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */,
+				DAD2B2CE236ED91A0046756B /* multipleChoiceTableViewCell.swift */,
+			);
+			path = "Multiple Choice";
+			sourceTree = "<group>";
+		};
+		DAD2B2D2236EDA850046756B /* Free Response */ = {
+			isa = PBXGroup;
+			children = (
+				DAC2BFDC236EB55C0004E7B8 /* FreeResponseViewController.swift */,
 				DA77C183236EC3F800460E6A /* FreeResponseTableView.swift */,
 				DA77C187236EC4A900460E6A /* FreeResponseTableViewCell.swift */,
 			);
-			path = Controller;
+			path = "Free Response";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,13 +365,14 @@
 				DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */,
 				DA77C186236EC44400460E6A /* PickerViewTableView.swift in Sources */,
 				DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */,
+				DAD2B2CF236ED91A0046756B /* multipleChoiceTableViewCell.swift in Sources */,
 				DAC2BFD3236EB2150004E7B8 /* pickerViewController.swift in Sources */,
-				DAC2BFDD236EB55C0004E7B8 /* textFieldViewController.swift in Sources */,
+				DAC2BFDD236EB55C0004E7B8 /* FreeResponseViewController.swift in Sources */,
 				DA77C184236EC3F800460E6A /* FreeResponseTableView.swift in Sources */,
+				DAD2B2CD236ECF3B0046756B /* TabBarViewController.swift in Sources */,
 				DA77C188236EC4A900460E6A /* FreeResponseTableViewCell.swift in Sources */,
 				DA77C182236EC38000460E6A /* MultipleChoiceTableView.swift in Sources */,
 				DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */,
-				DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */,
 				DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */,
 				DA1E9F3C236EC00C00C77759 /* multipleChoiceCollectionView.swift in Sources */,
 			);
