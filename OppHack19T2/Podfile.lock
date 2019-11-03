@@ -152,7 +152,7 @@ DEPENDENCIES:
   - TinyConstraints
 
 SPEC REPOS:
-  trunk:
+  https://github.com/cocoapods/specs.git:
     - BoringSSL-GRPC
     - Cosmos
     - Firebase
@@ -210,4 +210,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 9a6c7759ee045c6aa01db531620bfd1aacdf0ea4
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.7.5
