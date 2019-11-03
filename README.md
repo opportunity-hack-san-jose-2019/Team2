@@ -1,6 +1,6 @@
-# Project Title
+# yuConnect
 
-One Paragraph of project description goes here
+Bringing mentors and mentees together since 2019.
 
 ## Getting Started
 
