@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RqF-jL-bTx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gof-zx-tsA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -330,7 +330,7 @@
                                         <rect key="frame" x="34" y="179" width="243" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DIQ-8m-kpa">
                                         <rect key="frame" x="34" y="76" width="243" height="34"/>
@@ -392,7 +392,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-xn-kvf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pw-xn-kvf">
                                 <rect key="frame" x="147" y="200" width="121" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33333333333333331" green="0.5607843137254902" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -626,12 +626,15 @@
                                         <rect key="frame" x="93" y="401" width="124" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="BACK"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="backButton:" destination="RqF-jL-bTx" eventType="touchUpInside" id="Wlw-pS-jcZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.56078431370000004" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
