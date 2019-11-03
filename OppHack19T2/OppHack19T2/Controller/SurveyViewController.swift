@@ -19,11 +19,12 @@ class SurveyViewController: UIViewController {
     
     var docRef: DocumentReference!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let db = Firestore.firestore()
-        let docRef = db.collection("mentee_survey").document("Q11")
+        let docRef = db.collection("mentee_survey").document("Q13")
         docRef.getDocument { (document, error) in
              if let document = document, document.exists {
                  let docData = document.data()
@@ -32,6 +33,8 @@ class SurveyViewController: UIViewController {
                  print("Document does not exist")
               }
         }
+        
+        
     }
 
 }
