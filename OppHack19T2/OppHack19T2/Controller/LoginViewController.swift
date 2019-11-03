@@ -28,6 +28,7 @@ class LoginViewController: UIViewController {
             }
             else {
                 print("Firebase Sign In Success")
+                self.performSegue(withIdentifier: "loginSegue", sender: self)
             }
         }
     }

@@ -38,6 +38,7 @@ class RegisterViewController: UIViewController {
             Auth.auth().createUser(withEmail: email, password: password) { user, error in
                 if(error == nil && user != nil) {
                     print("Registration Successful!")
+                    self.performSegue(withIdentifier: "registerSegue", sender: self)
                 }
                 else {
                     print("Error: \(error!.localizedDescription)")

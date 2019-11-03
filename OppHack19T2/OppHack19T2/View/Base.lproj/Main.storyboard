@@ -48,7 +48,6 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="registerButton:" destination="KdW-Xb-WXh" eventType="touchUpInside" id="ptn-3N-jGS"/>
-                                    <segue destination="edF-NW-4ON" kind="show" id="M58-XU-Nxk"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-GM-zl7">
@@ -73,6 +72,7 @@
                         <outlet property="button1" destination="TuO-qE-3VS" id="ngB-j1-Mue"/>
                         <outlet property="emailTF" destination="Oz5-dg-oKf" id="TPi-3Z-Rlt"/>
                         <outlet property="passwordTF" destination="sow-ps-PBc" id="p7j-Ed-AW6"/>
+                        <segue destination="edF-NW-4ON" kind="show" identifier="registerSegue" id="meM-gd-KG0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6H7-dY-D1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -148,7 +148,6 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="FirebaseLogin:" destination="xPh-LC-Vyt" eventType="touchUpInside" id="HYB-OT-w3h"/>
-                                    <segue destination="od0-fU-QM9" kind="show" id="bvA-wd-VWn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,6 +158,7 @@
                     <connections>
                         <outlet property="emailTF" destination="DIQ-8m-kpa" id="73S-g9-KTW"/>
                         <outlet property="passwordTF" destination="4c0-36-Tup" id="h4W-u4-C6U"/>
+                        <segue destination="od0-fU-QM9" kind="show" identifier="loginSegue" id="NY0-OK-qvb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJX-JW-LpJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
