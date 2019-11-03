@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7DF9CE390D520F3B6709718B /* Pods_OppHack19T2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B7CBD23BF2C32635EE3418 /* Pods_OppHack19T2.framework */; };
+		DA1E9F3A236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */; };
+		DA1E9F3C236EC00C00C77759 /* multipleChoiceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */; };
 		DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */; };
 		DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */; };
 		DA3E3EDD236E3A26000DCE65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */; };
@@ -20,6 +22,10 @@
 		DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */; };
 		DA5F7213236E3025000E30B9 /* Questions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7212236E3025000E30B9 /* Questions.storyboard */; };
 		DA5F7215236E302D000E30B9 /* Mentee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7214236E302D000E30B9 /* Mentee.storyboard */; };
+		DA77C182236EC38000460E6A /* MultipleChoiceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77C181236EC38000460E6A /* MultipleChoiceTableView.swift */; };
+		DA77C184236EC3F800460E6A /* FreeResponseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77C183236EC3F800460E6A /* FreeResponseTableView.swift */; };
+		DA77C186236EC44400460E6A /* PickerViewTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77C185236EC44400460E6A /* PickerViewTableView.swift */; };
+		DA77C188236EC4A900460E6A /* FreeResponseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77C187236EC4A900460E6A /* FreeResponseTableViewCell.swift */; };
 		DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */; };
 		DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA5063236E37D900014BC3 /* SceneDelegate.swift */; };
 		DAC2BFC9236EA39F0004E7B8 /* pickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC2BFC8236EA39F0004E7B8 /* pickerView.xib */; };
@@ -29,12 +35,15 @@
 		DAC2BFD5236EB22A0004E7B8 /* multipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */; };
 		DAC2BFD9236EB3240004E7B8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */; };
 		DAC2BFDD236EB55C0004E7B8 /* textFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */; };
+		DAD2B2CB236EC6400046756B /* PickerViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2B2CA236EC6400046756B /* PickerViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01C420C9687FAD2AD612606F /* Pods-OppHack19T2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OppHack19T2.debug.xcconfig"; path = "Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2.debug.xcconfig"; sourceTree = "<group>"; };
 		84B7CBD23BF2C32635EE3418 /* Pods_OppHack19T2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OppHack19T2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0261C2F5F4C1531FE69103 /* Pods-OppHack19T2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OppHack19T2.release.xcconfig"; path = "Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2.release.xcconfig"; sourceTree = "<group>"; };
+		DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceCollectionView.swift; sourceTree = "<group>"; };
 		DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
 		DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
 		DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -49,6 +58,10 @@
 		DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DA5F7212236E3025000E30B9 /* Questions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Questions.storyboard; sourceTree = "<group>"; };
 		DA5F7214236E302D000E30B9 /* Mentee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentee.storyboard; sourceTree = "<group>"; };
+		DA77C181236EC38000460E6A /* MultipleChoiceTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceTableView.swift; sourceTree = "<group>"; };
+		DA77C183236EC3F800460E6A /* FreeResponseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeResponseTableView.swift; sourceTree = "<group>"; };
+		DA77C185236EC44400460E6A /* PickerViewTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTableView.swift; sourceTree = "<group>"; };
+		DA77C187236EC4A900460E6A /* FreeResponseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeResponseTableViewCell.swift; sourceTree = "<group>"; };
 		DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		DAAA5063236E37D900014BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DAC2BFC8236EA39F0004E7B8 /* pickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pickerView.xib; sourceTree = "<group>"; };
@@ -58,6 +71,7 @@
 		DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceViewController.swift; sourceTree = "<group>"; };
 		DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldViewController.swift; sourceTree = "<group>"; };
+		DAD2B2CA236EC6400046756B /* PickerViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +178,13 @@
 				DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */,
 				DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */,
 				DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */,
+				DA1E9F39236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift */,
+				DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */,
+				DA77C181236EC38000460E6A /* MultipleChoiceTableView.swift */,
+				DA77C185236EC44400460E6A /* PickerViewTableView.swift */,
+				DAD2B2CA236EC6400046756B /* PickerViewTableViewCell.swift */,
+				DA77C183236EC3F800460E6A /* FreeResponseTableView.swift */,
+				DA77C187236EC4A900460E6A /* FreeResponseTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,15 +331,22 @@
 				DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */,
 				DAC2BFD5236EB22A0004E7B8 /* multipleChoiceViewController.swift in Sources */,
 				DA5F720F236E2E86000E30B9 /* LoginViewController.swift in Sources */,
+				DAD2B2CB236EC6400046756B /* PickerViewTableViewCell.swift in Sources */,
+				DA1E9F3A236EBF1900C77759 /* multipleChoiceCellCollectionViewCell.swift in Sources */,
 				DAC2BFD9236EB3240004E7B8 /* PageViewController.swift in Sources */,
 				DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */,
 				DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */,
+				DA77C186236EC44400460E6A /* PickerViewTableView.swift in Sources */,
 				DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */,
 				DAC2BFD3236EB2150004E7B8 /* pickerViewController.swift in Sources */,
 				DAC2BFDD236EB55C0004E7B8 /* textFieldViewController.swift in Sources */,
+				DA77C184236EC3F800460E6A /* FreeResponseTableView.swift in Sources */,
+				DA77C188236EC4A900460E6A /* FreeResponseTableViewCell.swift in Sources */,
+				DA77C182236EC38000460E6A /* MultipleChoiceTableView.swift in Sources */,
 				DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */,
 				DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */,
 				DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */,
+				DA1E9F3C236EC00C00C77759 /* multipleChoiceCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
