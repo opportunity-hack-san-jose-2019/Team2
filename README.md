@@ -2,7 +2,7 @@
 
 Bringing mentors and mentees together since 2019.
 
-## Presentation
+### Presentation
 
 Make sure to check out our pitch presentation in our repo, 'pitch one.pptx'
 
