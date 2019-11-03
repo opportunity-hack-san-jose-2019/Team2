@@ -12,19 +12,21 @@ import FirebaseFirestore
 
 class PickerViewTableViewCell: UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    var questions : [String] = []
+    var answers : [String] = []
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return questions.count
+        
+        print("answers:\(answers)")
+        return answers.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
-        return questions[row]
+        return answers[row]
     }
 
     @IBOutlet weak var pickView: UIPickerView!
@@ -37,25 +39,29 @@ class PickerViewTableViewCell: UITableViewCell, UIPickerViewDelegate, UIPickerVi
         
         let db = Firestore.firestore()
         
+        answers.removeAll()
+        
         var array : [String] = []
         array.removeAll()
         
-        db.collection("mentee_survey").whereField("type", isEqualTo: "multi-value")
-            .getDocuments() { (querySnapshot, err) in
-                if let err = err {
-                    print("Error getting documents: \(err)")
-                } else {
-                    for document in querySnapshot!.documents {
-                        let docData = document.data()
-                        
-                        array.append(docData["title"] as? String ?? "")
-                        
-                    }
-                    
-                    self.questions = array
-                    print("foody:\(self.questions)")
-                    
-                }
+        let docRef = db.collection("variables").document("ADGrycpeXHGh5KzxCMcc").collection("technical area").document("CNdxDFQ6K33gexHn8CZ9")
+        
+        docRef.getDocument { (document, error) in
+             if let document = document, document.exists {
+                 let docData = document.data()
+                var option1 = docData!["1"] as? String ?? ""
+                var option2 = docData!["2"] as? String ?? ""
+                var option3 = docData!["3"] as? String ?? ""
+                
+                self.answers.append(option1)
+                self.answers.append(option2)
+                self.answers.append(option3)
+                
+                self.pickView.reloadAllComponents()
+                
+              } else {
+                 print("Document does not exist")
+              }
         }
         
     }

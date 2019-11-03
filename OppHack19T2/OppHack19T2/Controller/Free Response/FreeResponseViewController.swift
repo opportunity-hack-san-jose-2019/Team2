@@ -12,12 +12,24 @@ import FirebaseFirestore
 
 class FreeResponseViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var questions : [String] = []
+        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return questions.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "testCell", for: indexPath) as! FreeResponseTableViewCell
+        
+        cell.question.text = questions[indexPath.row]
+        
+        return cell
+    }
+    
+    @IBOutlet weak var freeResponseTableView: FreeResponseTableView!
+        
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
         let db = Firestore.firestore()
         
@@ -28,18 +40,11 @@ class FreeResponseViewController: UIViewController, UITableViewDataSource, UITab
                 } else {
                     for document in querySnapshot!.documents {
                         let docData = document.data()
-                        cell.question.text = docData["title"] as? String ?? ""
-                        
+                        self.questions.append(docData["title"] as? String ?? "")
+                        self.freeResponseTableView.reloadData()
                     }
                 }
         }
-        return cell
-    }
-    
-    @IBOutlet weak var freeResponseTableView: FreeResponseTableView!
-        
-    override func viewDidLoad() {
-        super.viewDidLoad()
         
     }
 }

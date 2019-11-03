@@ -30,7 +30,8 @@ class pickerViewController: UIViewController, UITableViewDataSource, UITableView
                 } else {
                     for document in querySnapshot!.documents {
                         let docData = document.data()
-                        self.questions.append(docData["title"] as? String ?? "nothongw")
+                        self.questions.append(docData["title"] as? String ?? "")
+                        self.tableView.reloadData()
                     }
                     print("gum\(self.questions)")                }
         }
@@ -38,7 +39,7 @@ class pickerViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return questions.count
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -50,19 +51,7 @@ class pickerViewController: UIViewController, UITableViewDataSource, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "pickerCell", for: indexPath) as! PickerViewTableViewCell
         print("gux:\(cell)")
                 
-        let db = Firestore.firestore()
-        
-        db.collection("mentee_survey").whereField("type", isEqualTo: "single-value")
-            .getDocuments() { (querySnapshot, err) in
-                if let err = err {
-                    print("Error getting documents: \(err)")
-                } else {
-                    for document in querySnapshot!.documents {
-                        let docData = document.data()
-                        cell.question.text = docData["title"] as? String ?? ""
-                    }
-              }
-        }
+        cell.question.text = questions[indexPath.row]
                 
         return cell
         

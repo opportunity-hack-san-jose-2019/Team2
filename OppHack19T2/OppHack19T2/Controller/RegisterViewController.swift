@@ -11,6 +11,8 @@ import UIKit
 
 class RegisterViewController: UIViewController {
     
+    @IBOutlet weak var backButton: UIButton!
+    
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var button: UIButton!
@@ -64,4 +66,8 @@ class RegisterViewController: UIViewController {
 //          return
     }
     
+    @IBAction func backButton(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
+    }
 }
