@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550E4FE4236E3CDC00646ED5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 550E4FE3236E3CDC00646ED5 /* GoogleService-Info.plist */; };
+		550E4FE8236E478A00646ED5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550E4FE7236E478A00646ED5 /* LoginViewController.swift */; };
+		550E4FEA236E47DC00646ED5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550E4FE9236E47DC00646ED5 /* SignUpViewController.swift */; };
 		55E73A38236E191A007613B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E73A37236E191A007613B6 /* AppDelegate.swift */; };
 		55E73A3A236E191A007613B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E73A39236E191A007613B6 /* SceneDelegate.swift */; };
 		55E73A3C236E191A007613B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E73A3B236E191A007613B6 /* ViewController.swift */; };
 		55E73A3F236E191A007613B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E73A3D236E191A007613B6 /* Main.storyboard */; };
 		55E73A41236E191B007613B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E73A40236E191B007613B6 /* Assets.xcassets */; };
 		55E73A44236E191B007613B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E73A42236E191B007613B6 /* LaunchScreen.storyboard */; };
+		C1F8B218C72E1FD51D002E57 /* Pods_YearUp_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D6475983E2FE9507579FB /* Pods_YearUp_Connect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		550E4FE3236E3CDC00646ED5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		550E4FE7236E478A00646ED5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		550E4FE9236E47DC00646ED5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		55E73A34236E191A007613B6 /* YearUp Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YearUp Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E73A37236E191A007613B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E73A39236E191A007613B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		55E73A40236E191B007613B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E73A43236E191B007613B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E73A45236E191B007613B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB1B6212E91A3F4A7570529 /* Pods-YearUp Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearUp Connect.release.xcconfig"; path = "Target Support Files/Pods-YearUp Connect/Pods-YearUp Connect.release.xcconfig"; sourceTree = "<group>"; };
+		E87D6475983E2FE9507579FB /* Pods_YearUp_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YearUp_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B85FE29CA45AAE846F910 /* Pods-YearUp Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearUp Connect.debug.xcconfig"; path = "Target Support Files/Pods-YearUp Connect/Pods-YearUp Connect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F8B218C72E1FD51D002E57 /* Pods_YearUp_Connect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B72E0BF5BDDE45A68007ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F83B85FE29CA45AAE846F910 /* Pods-YearUp Connect.debug.xcconfig */,
+				5AB1B6212E91A3F4A7570529 /* Pods-YearUp Connect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DFA5ABC899786CB784717FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87D6475983E2FE9507579FB /* Pods_YearUp_Connect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55E73A2B236E191A007613B6 = {
 			isa = PBXGroup;
 			children = (
 				55E73A36236E191A007613B6 /* YearUp Connect */,
 				55E73A35236E191A007613B6 /* Products */,
+				1B72E0BF5BDDE45A68007ED4 /* Pods */,
+				4DFA5ABC899786CB784717FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +86,13 @@
 		55E73A36236E191A007613B6 /* YearUp Connect */ = {
 			isa = PBXGroup;
 			children = (
+				550E4FE3236E3CDC00646ED5 /* GoogleService-Info.plist */,
 				55E73A37236E191A007613B6 /* AppDelegate.swift */,
 				55E73A39236E191A007613B6 /* SceneDelegate.swift */,
 				55E73A3B236E191A007613B6 /* ViewController.swift */,
 				55E73A3D236E191A007613B6 /* Main.storyboard */,
+				550E4FE9236E47DC00646ED5 /* SignUpViewController.swift */,
+				550E4FE7236E478A00646ED5 /* LoginViewController.swift */,
 				55E73A40236E191B007613B6 /* Assets.xcassets */,
 				55E73A42236E191B007613B6 /* LaunchScreen.storyboard */,
 				55E73A45236E191B007613B6 /* Info.plist */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55E73A48236E191B007613B6 /* Build configuration list for PBXNativeTarget "YearUp Connect" */;
 			buildPhases = (
+				3F0702130984C67AE7AD0072 /* [CP] Check Pods Manifest.lock */,
 				55E73A30236E191A007613B6 /* Sources */,
 				55E73A31236E191A007613B6 /* Frameworks */,
 				55E73A32236E191A007613B6 /* Resources */,
+				03F31093E90F9879C3C62C95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E73A44236E191B007613B6 /* LaunchScreen.storyboard in Resources */,
+				550E4FE4236E3CDC00646ED5 /* GoogleService-Info.plist in Resources */,
 				55E73A41236E191B007613B6 /* Assets.xcassets in Resources */,
 				55E73A3F236E191A007613B6 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +169,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03F31093E90F9879C3C62C95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YearUp Connect/Pods-YearUp Connect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YearUp Connect/Pods-YearUp Connect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YearUp Connect/Pods-YearUp Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0702130984C67AE7AD0072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YearUp Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55E73A30236E191A007613B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550E4FE8236E478A00646ED5 /* LoginViewController.swift in Sources */,
 				55E73A3C236E191A007613B6 /* ViewController.swift in Sources */,
 				55E73A38236E191A007613B6 /* AppDelegate.swift in Sources */,
 				55E73A3A236E191A007613B6 /* SceneDelegate.swift in Sources */,
+				550E4FEA236E47DC00646ED5 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +362,7 @@
 		};
 		55E73A49236E191B007613B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83B85FE29CA45AAE846F910 /* Pods-YearUp Connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		55E73A4A236E191B007613B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB1B6212E91A3F4A7570529 /* Pods-YearUp Connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
