@@ -13,9 +13,16 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var button1: UIButton!
+    
+    var isChecked = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        button.backgroundColor = UIColor.blue
+//        button1.backgroundColor = UIColor.blue
     }
     
     @IBAction func registerButton(_ sender: Any) {
@@ -38,4 +45,22 @@ class RegisterViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+//        if sender.backgroundColor == Constants.BOOL_BUTTON.enabled {
+//          return
+//        }
+//        sender.backgroundColor = Constants.BOOL_BUTTON.enabled
+//
+//        switch sender {
+//        case self.leftButton:
+//          self.rightButton.backgroundColor = Constants.BOOL_BUTTON.disabled
+//
+//        case self.rightButton:
+//          self.leftButton.backgroundColor = Constants.BOOL_BUTTON.disabled
+//
+//        default:
+//          return
+    }
+    
 }

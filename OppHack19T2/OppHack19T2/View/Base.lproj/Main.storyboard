@@ -30,7 +30,7 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zq9-jQ-sYe"/>
-                                    <segue destination="KdW-Xb-WXh" kind="show" identifier="registerSegue" id="cPc-zj-LVA"/>
+                                    <segue destination="KdW-Xb-WXh" kind="show" identifier="" id="cPc-zj-LVA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,20 +46,18 @@
         <!--Register View Controller-->
         <scene sceneID="lkF-ud-fYh">
             <objects>
-                <viewController id="KdW-Xb-WXh" customClass="RegisterViewController" customModule="OppHack19T2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegisterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KdW-Xb-WXh" customClass="RegisterViewController" customModule="OppHack19T2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ASN-38-gKa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6YW-tK-5HX">
-                                <rect key="frame" x="107" y="381" width="49" height="30"/>
+                                <rect key="frame" x="85" y="381" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Mentor"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuO-qE-3VS">
-                                <rect key="frame" x="235" y="381" width="52" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Mentee"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="KdW-Xb-WXh" eventType="touchUpInside" id="VJr-gz-XSJ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oz5-dg-oKf">
                                 <rect key="frame" x="107" y="188" width="180" height="34"/>
@@ -89,12 +87,26 @@
                                     <segue destination="edF-NW-4ON" kind="show" id="M58-XU-Nxk"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-GM-zl7">
+                                <rect key="frame" x="184" y="381" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuO-qE-3VS">
+                                <rect key="frame" x="276" y="381" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mentee"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="KdW-Xb-WXh" eventType="touchUpInside" id="hd9-Hc-cqh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="IR2-rR-Lfh"/>
                     </view>
                     <navigationItem key="navigationItem" id="Oys-aI-RbD"/>
                     <connections>
+                        <outlet property="button" destination="6YW-tK-5HX" id="ArH-de-cH4"/>
+                        <outlet property="button1" destination="TuO-qE-3VS" id="ngB-j1-Mue"/>
                         <outlet property="emailTF" destination="Oz5-dg-oKf" id="TPi-3Z-Rlt"/>
                         <outlet property="passwordTF" destination="sow-ps-PBc" id="p7j-Ed-AW6"/>
                     </connections>

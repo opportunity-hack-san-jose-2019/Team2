@@ -9,5 +9,8 @@ target 'OppHack19T2' do
   pod 'Firebase'
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Cosmos', '~> 20.0'
+  pod 'TinyConstraints'
+  pod 'Firebase/InAppMessagingDisplay'
 
 end

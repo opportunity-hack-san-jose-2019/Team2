@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7DF9CE390D520F3B6709718B /* Pods_OppHack19T2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B7CBD23BF2C32635EE3418 /* Pods_OppHack19T2.framework */; };
 		DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */; };
+		DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */; };
 		DA3E3EDD236E3A26000DCE65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */; };
 		DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */; };
 		DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F71FB236E2C41000E30B9 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		84B7CBD23BF2C32635EE3418 /* Pods_OppHack19T2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OppHack19T2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0261C2F5F4C1531FE69103 /* Pods-OppHack19T2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OppHack19T2.release.xcconfig"; path = "Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2.release.xcconfig"; sourceTree = "<group>"; };
 		DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
 		DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA5F71F4236E2C41000E30B9 /* OppHack19T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OppHack19T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		DA5F720B236E2DDD000E30B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA2E149E236E4BE400C4F0DC /* CurrentUser.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				DA5F71F1236E2C41000E30B9 /* Frameworks */,
 				DA5F71F2236E2C41000E30B9 /* Resources */,
 				E54605583AE05479AA9FE7AA /* [CP] Embed Pods Frameworks */,
+				8EF3198599ACC23A31A40557 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +239,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8EF3198599ACC23A31A40557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OppHack19T2/Pods-OppHack19T2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E54605583AE05479AA9FE7AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +285,7 @@
 				DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */,
 				DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */,
 				DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */,
+				DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */,
 				DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
