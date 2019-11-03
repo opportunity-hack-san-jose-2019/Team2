@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="pickerView" customModule="OppHack19T2" customModuleProvider="target">
             <connections>
+                <outlet property="pickView" destination="vIF-CU-BBq" id="HN7-gz-p33"/>
                 <outlet property="picker" destination="iN0-l3-epB" id="jJd-bA-pGT"/>
             </connections>
         </placeholder>
@@ -33,7 +34,6 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="pickerView" destination="vIF-CU-BBq" id="Egn-p3-BRS"/>
                 <outlet property="title" destination="JLf-ZO-GMs" id="Som-ye-jYf"/>
             </connections>
             <point key="canvasLocation" x="81" y="147"/>

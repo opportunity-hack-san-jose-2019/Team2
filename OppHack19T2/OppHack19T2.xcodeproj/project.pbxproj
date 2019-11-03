@@ -18,15 +18,17 @@
 		DA5F7204236E2C47000E30B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7202236E2C47000E30B9 /* LaunchScreen.storyboard */; };
 		DA5F720F236E2E86000E30B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F720E236E2E86000E30B9 /* LoginViewController.swift */; };
 		DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */; };
-		DA5F7213236E3025000E30B9 /* Mentor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7212236E3025000E30B9 /* Mentor.storyboard */; };
+		DA5F7213236E3025000E30B9 /* Questions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7212236E3025000E30B9 /* Questions.storyboard */; };
 		DA5F7215236E302D000E30B9 /* Mentee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7214236E302D000E30B9 /* Mentee.storyboard */; };
 		DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */; };
 		DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA5063236E37D900014BC3 /* SceneDelegate.swift */; };
 		DAC2BFC9236EA39F0004E7B8 /* pickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC2BFC8236EA39F0004E7B8 /* pickerView.xib */; };
 		DAC2BFCB236EA3B30004E7B8 /* textField.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC2BFCA236EA3B30004E7B8 /* textField.xib */; };
 		DAC2BFCD236EA3BC0004E7B8 /* multipleChoice.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC2BFCC236EA3BC0004E7B8 /* multipleChoice.xib */; };
-		DAC2BFCF236EA5470004E7B8 /* pickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFCE236EA5470004E7B8 /* pickerView.swift */; };
-		DAC2BFD1236EA9840004E7B8 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD0236EA9840004E7B8 /* PickerViewController.swift */; };
+		DAC2BFD3236EB2150004E7B8 /* pickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */; };
+		DAC2BFD5236EB22A0004E7B8 /* multipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */; };
+		DAC2BFD9236EB3240004E7B8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */; };
+		DAC2BFDD236EB55C0004E7B8 /* textFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,15 +47,17 @@
 		DA5F7205236E2C47000E30B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA5F720E236E2E86000E30B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		DA5F7212236E3025000E30B9 /* Mentor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentor.storyboard; sourceTree = "<group>"; };
+		DA5F7212236E3025000E30B9 /* Questions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Questions.storyboard; sourceTree = "<group>"; };
 		DA5F7214236E302D000E30B9 /* Mentee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentee.storyboard; sourceTree = "<group>"; };
 		DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		DAAA5063236E37D900014BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DAC2BFC8236EA39F0004E7B8 /* pickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pickerView.xib; sourceTree = "<group>"; };
 		DAC2BFCA236EA3B30004E7B8 /* textField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = textField.xib; sourceTree = "<group>"; };
 		DAC2BFCC236EA3BC0004E7B8 /* multipleChoice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = multipleChoice.xib; sourceTree = "<group>"; };
-		DAC2BFCE236EA5470004E7B8 /* pickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerView.swift; sourceTree = "<group>"; };
-		DAC2BFD0236EA9840004E7B8 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerViewController.swift; sourceTree = "<group>"; };
+		DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceViewController.swift; sourceTree = "<group>"; };
+		DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				DA5F71FD236E2C41000E30B9 /* Main.storyboard */,
-				DA5F7212236E3025000E30B9 /* Mentor.storyboard */,
+				DA5F7212236E3025000E30B9 /* Questions.storyboard */,
 				DA5F7214236E302D000E30B9 /* Mentee.storyboard */,
 				DAC2BFC8236EA39F0004E7B8 /* pickerView.xib */,
 				DAC2BFCA236EA3B30004E7B8 /* textField.xib */,
@@ -156,8 +160,10 @@
 				DA5F720E236E2E86000E30B9 /* LoginViewController.swift */,
 				DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */,
 				DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */,
-				DAC2BFCE236EA5470004E7B8 /* pickerView.swift */,
-				DAC2BFD0236EA9840004E7B8 /* PickerViewController.swift */,
+				DAC2BFD8236EB3240004E7B8 /* PageViewController.swift */,
+				DAC2BFD2236EB2150004E7B8 /* pickerViewController.swift */,
+				DAC2BFDC236EB55C0004E7B8 /* textFieldViewController.swift */,
+				DAC2BFD4236EB22A0004E7B8 /* multipleChoiceViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -225,7 +231,7 @@
 			files = (
 				DAC2BFCD236EA3BC0004E7B8 /* multipleChoice.xib in Resources */,
 				DA5F7204236E2C47000E30B9 /* LaunchScreen.storyboard in Resources */,
-				DA5F7213236E3025000E30B9 /* Mentor.storyboard in Resources */,
+				DA5F7213236E3025000E30B9 /* Questions.storyboard in Resources */,
 				DA5F7215236E302D000E30B9 /* Mentee.storyboard in Resources */,
 				DA5F7201236E2C47000E30B9 /* Assets.xcassets in Resources */,
 				DAC2BFC9236EA39F0004E7B8 /* pickerView.xib in Resources */,
@@ -301,14 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC2BFD1236EA9840004E7B8 /* PickerViewController.swift in Sources */,
 				DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */,
+				DAC2BFD5236EB22A0004E7B8 /* multipleChoiceViewController.swift in Sources */,
 				DA5F720F236E2E86000E30B9 /* LoginViewController.swift in Sources */,
+				DAC2BFD9236EB3240004E7B8 /* PageViewController.swift in Sources */,
 				DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */,
 				DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */,
 				DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */,
+				DAC2BFD3236EB2150004E7B8 /* pickerViewController.swift in Sources */,
+				DAC2BFDD236EB55C0004E7B8 /* textFieldViewController.swift in Sources */,
 				DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */,
-				DAC2BFCF236EA5470004E7B8 /* pickerView.swift in Sources */,
 				DA2E149F236E4BE400C4F0DC /* CurrentUser.swift in Sources */,
 				DA2E1499236E3EA300C4F0DC /* ErrorPresenter.swift in Sources */,
 			);
