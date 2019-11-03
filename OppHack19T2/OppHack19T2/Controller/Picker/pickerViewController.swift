@@ -21,6 +21,8 @@ class pickerViewController: UIViewController, UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tableView.separatorColor = .clear
+        
         let db = Firestore.firestore()
         
         db.collection("mentee_survey").whereField("type", isEqualTo: "single-value")

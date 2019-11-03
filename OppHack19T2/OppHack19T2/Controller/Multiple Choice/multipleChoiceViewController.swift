@@ -103,6 +103,8 @@ class multipleChoiceViewController: UIViewController, UITableViewDataSource, UIT
         
 //        answers.removeAll()
         
+        self.multipleChoiceTableView.separatorColor = .clear
+        
         let docRef2 = db.collection("mentee_survey").whereField("type", isEqualTo: "multi-value")
             .getDocuments() { (querySnapshot, err) in
                 if let err = err {

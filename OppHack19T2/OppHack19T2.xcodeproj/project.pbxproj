@@ -47,7 +47,7 @@
 		DA1E9F3B236EC00C00C77759 /* multipleChoiceCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleChoiceCollectionView.swift; sourceTree = "<group>"; };
 		DA2E1498236E3EA300C4F0DC /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
 		DA3E3EDC236E3A26000DCE65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DA5F71F4236E2C41000E30B9 /* OppHack19T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OppHack19T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5F71F4236E2C41000E30B9 /* yuConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yuConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5F71F7236E2C41000E30B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5F71FB236E2C41000E30B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA5F71FE236E2C41000E30B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		DA5F71F5236E2C41000E30B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA5F71F4236E2C41000E30B9 /* OppHack19T2.app */,
+				DA5F71F4236E2C41000E30B9 /* yuConnect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,7 +236,7 @@
 			);
 			name = OppHack19T2;
 			productName = OppHack19T2;
-			productReference = DA5F71F4236E2C41000E30B9 /* OppHack19T2.app */;
+			productReference = DA5F71F4236E2C41000E30B9 /* yuConnect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -520,7 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P4RL2V69U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OppHack19T2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = piercetu.OppHack19T2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = yuConnect;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -540,7 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P4RL2V69U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OppHack19T2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -548,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = piercetu.OppHack19T2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = yuConnect;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -28,8 +28,11 @@ class FreeResponseViewController: UIViewController, UITableViewDataSource, UITab
     
     @IBOutlet weak var freeResponseTableView: FreeResponseTableView!
         
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.freeResponseTableView.separatorColor = .clear
         
         let db = Firestore.firestore()
         

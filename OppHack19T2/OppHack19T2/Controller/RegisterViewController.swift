@@ -13,6 +13,7 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     
+    @IBOutlet weak var card: UIView!
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var button: UIButton!
@@ -25,6 +26,19 @@ class RegisterViewController: UIViewController {
         
 //        button.backgroundColor = UIColor.blue
 //        button1.backgroundColor = UIColor.blue
+        
+//        // Create a gradient layer.
+//        let gradientLayer = CAGradientLayer()
+//        // Set the size of the layer to be equal to size of the display.
+//        gradientLayer.frame = view.bounds
+//        // Set an array of Core Graphics colors (.cgColor) to create the gradient.
+//        // This example uses a Color Literal and a UIColor from RGB values.
+//        gradientLayer.colors = [#colorLiteral(red: 0.4372955561, green: 0.6854210496, blue: 1, alpha: 1).cgColor, #colorLiteral(red: 0.2566329241, green: 0.4919913411, blue: 1, alpha: 1).cgColor]
+//        // Rasterize this static layer to improve app performance.
+//        gradientLayer.shouldRasterize = true
+//        // Apply the gradient to the backgroundGradientView.
+//        card.layer.insertSublayer(gradientLayer, at: 0)
+        
     }
     
     @IBAction func registerButton(_ sender: Any) {

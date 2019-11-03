@@ -12,6 +12,8 @@ import FirebaseFirestore
 
 class PickerViewTableViewCell: UITableViewCell, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    @IBOutlet weak var card: UIView!
+    
     var answers : [String] = []
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -36,6 +38,10 @@ class PickerViewTableViewCell: UITableViewCell, UIPickerViewDelegate, UIPickerVi
         super.awakeFromNib()
         pickView.dataSource = self
         pickView.delegate = self
+        
+        self.selectionStyle = .none
+        
+        card.layer.cornerRadius = 7.5
         
         let db = Firestore.firestore()
         

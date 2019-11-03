@@ -12,10 +12,13 @@ class multipleChoiceTableViewCell: UITableViewCell {
 
     @IBOutlet weak var question: UILabel!
     @IBOutlet private weak var multipleChoiceCollectionView: UICollectionView!
+    @IBOutlet weak var card: UIView!
+    @IBOutlet weak var bgImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.layer.cornerRadius = 7.5
+        self.selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

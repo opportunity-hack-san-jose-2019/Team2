@@ -13,12 +13,16 @@ class FreeResponseTableViewCell: UITableViewCell, UITextViewDelegate {
     @IBOutlet weak var question: UILabel!
     @IBOutlet weak var freeResponseTextField: UITextView!
     
+    @IBOutlet weak var card: UIView!
+    
     var textChanged: ((String) -> Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
         freeResponseTextField.delegate = self
+        card.layer.cornerRadius = 7.5
+        self.selectionStyle = .none
         
     }
 
