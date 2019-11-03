@@ -2,6 +2,10 @@
 
 Bringing mentors and mentees together since 2019.
 
+## Presentation
+
+Make sure to check out our pitch presentation in our repo, 'pitch one.pptx'
+
 ### Prerequisites
 
 Ensure that Xcode is installed and your Mac (no Windows PCs!) is running MacOS Mojave or later.
