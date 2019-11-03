@@ -7,9 +7,31 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
+    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet weak var passwordTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func FirebaseLogin(_ sender: Any) {
+        let email = emailTF.text
+        let password = passwordTF.text
+        Auth.auth().signIn(withEmail: email ?? "", password: password ?? "") { (result, error) in
+            if (error != nil) {
+                print(error)
+                ErrorPresenter(message: "Please fill out all the fields").present(in: self)
+                return
+            }
+            else {
+                print("Firebase Sign In Success")
+            }
+        }
+    }
+    
+    
+    
 }

@@ -20,6 +20,7 @@
 		DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */; };
 		DA5F7213236E3025000E30B9 /* Mentor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7212236E3025000E30B9 /* Mentor.storyboard */; };
 		DA5F7215236E302D000E30B9 /* Mentee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5F7214236E302D000E30B9 /* Mentee.storyboard */; };
+		DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */; };
 		DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA5063236E37D900014BC3 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DA5F7212236E3025000E30B9 /* Mentor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentor.storyboard; sourceTree = "<group>"; };
 		DA5F7214236E302D000E30B9 /* Mentee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mentee.storyboard; sourceTree = "<group>"; };
+		DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		DAAA5063236E37D900014BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 				DA5F71FB236E2C41000E30B9 /* ViewController.swift */,
 				DA5F720E236E2E86000E30B9 /* LoginViewController.swift */,
 				DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */,
+				DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */,
 				DA5F720F236E2E86000E30B9 /* LoginViewController.swift in Sources */,
+				DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */,
 				DA5F71FC236E2C41000E30B9 /* ViewController.swift in Sources */,
 				DA5F71F8236E2C41000E30B9 /* AppDelegate.swift in Sources */,
 				DA5F7211236E2E92000E30B9 /* RegisterViewController.swift in Sources */,
