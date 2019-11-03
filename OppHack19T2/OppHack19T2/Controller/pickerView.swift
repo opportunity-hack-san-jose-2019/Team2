@@ -10,10 +10,26 @@ import UIKit
 
 class pickerView: UIView {
 
-    @IBOutlet var picker: pickerView!
+    @IBOutlet var picker: UIView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var pickerView: UIPickerView!
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonInit()
+    }
+    
+    private func commonInit() {
+//        Bundle.main.loadNibNamed("pickerView", owner: self, options: nil)
+//        addSubview(picker)
+//        picker.frame = self.bounds
+//        picker.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+    }
     
     /*
     // Only override draw() if you perform custom drawing.

@@ -26,6 +26,7 @@
 		DAC2BFCB236EA3B30004E7B8 /* textField.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC2BFCA236EA3B30004E7B8 /* textField.xib */; };
 		DAC2BFCD236EA3BC0004E7B8 /* multipleChoice.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC2BFCC236EA3BC0004E7B8 /* multipleChoice.xib */; };
 		DAC2BFCF236EA5470004E7B8 /* pickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFCE236EA5470004E7B8 /* pickerView.swift */; };
+		DAC2BFD1236EA9840004E7B8 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BFD0236EA9840004E7B8 /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DAC2BFCA236EA3B30004E7B8 /* textField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = textField.xib; sourceTree = "<group>"; };
 		DAC2BFCC236EA3BC0004E7B8 /* multipleChoice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = multipleChoice.xib; sourceTree = "<group>"; };
 		DAC2BFCE236EA5470004E7B8 /* pickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerView.swift; sourceTree = "<group>"; };
+		DAC2BFD0236EA9840004E7B8 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				DA5F7210236E2E92000E30B9 /* RegisterViewController.swift */,
 				DA91FA6B236E782A00C3D9E3 /* SurveyViewController.swift */,
 				DAC2BFCE236EA5470004E7B8 /* pickerView.swift */,
+				DAC2BFD0236EA9840004E7B8 /* PickerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC2BFD1236EA9840004E7B8 /* PickerViewController.swift in Sources */,
 				DAAA5064236E37D900014BC3 /* SceneDelegate.swift in Sources */,
 				DA5F720F236E2E86000E30B9 /* LoginViewController.swift in Sources */,
 				DA91FA6C236E782A00C3D9E3 /* SurveyViewController.swift in Sources */,

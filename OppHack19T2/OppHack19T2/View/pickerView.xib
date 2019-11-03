@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="pickerView" customModule="OppHack19T2" customModuleProvider="target">
             <connections>
-                <outlet property="picker" destination="iN0-l3-epB" id="M2a-M4-o0C"/>
+                <outlet property="picker" destination="iN0-l3-epB" id="jJd-bA-pGT"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

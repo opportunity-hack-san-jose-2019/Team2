@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="2596" y="-168"/>
         </scene>
-        <!--View Controller-->
+        <!--Picker View Controller-->
         <scene sceneID="2C4-Pr-85D">
             <objects>
-                <viewController id="vXc-aZ-fCX" sceneMemberID="viewController">
+                <viewController id="vXc-aZ-fCX" customClass="PickerViewController" customModule="OppHack19T2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LRr-Il-f0r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,6 +121,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eOb-RI-rUU"/>
                     </view>
+                    <connections>
+                        <outlet property="test" destination="LRr-Il-f0r" id="DJx-hE-2u7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h51-AS-pmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
