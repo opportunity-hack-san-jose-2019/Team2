@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA5F71F3236E2C41000E30B9"
-               BuildableName = "OppHack19T2.app"
+               BuildableName = "yuConnect.app"
                BlueprintName = "OppHack19T2"
                ReferencedContainer = "container:OppHack19T2.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA5F71F3236E2C41000E30B9"
-            BuildableName = "OppHack19T2.app"
+            BuildableName = "yuConnect.app"
             BlueprintName = "OppHack19T2"
             ReferencedContainer = "container:OppHack19T2.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DA5F71F3236E2C41000E30B9"
-            BuildableName = "OppHack19T2.app"
+            BuildableName = "yuConnect.app"
             BlueprintName = "OppHack19T2"
             ReferencedContainer = "container:OppHack19T2.xcodeproj">
          </BuildableReference>

@@ -10,9 +10,12 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
 
+    @IBOutlet weak var surveyTabBar: UITabBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        surveyTabBar.backgroundColor = .white
         // Do any additional setup after loading the view.
     }
     
